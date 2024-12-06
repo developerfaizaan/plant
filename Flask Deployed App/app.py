@@ -6,7 +6,7 @@ import CNN
 import numpy as np
 import torch
 import pandas as pd
-
+import streamlit as st
 
 disease_info = pd.read_csv('disease_info.csv' , encoding='cp1252')
 supplement_info = pd.read_csv('supplement_info.csv',encoding='cp1252')
